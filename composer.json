@@ -1,0 +1,30 @@
+{
+  "name": "bwowk/diff-goggles",
+  "description": "Diff Goggles: A Visual Regression Server",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bruno Wowk",
+      "email": "bruno.wowk@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "bwowk\\DiffGoggles\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "bwowk\\DiffGoggles\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">= 7.2",
+    "ext-imagick": "^3.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5",
+    "behat/behat": "^3.4"
+  }
+}
